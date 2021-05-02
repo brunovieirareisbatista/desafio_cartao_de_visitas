@@ -2,36 +2,56 @@ body{
     background-color: black;
 }
 
+.card{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background:url(./imagens/background.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
 
-.principal{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+  list-style-image:url(./imagens/Insta.png)  
+}
+.twitter{
+list-style-image: url(./imagens/Twitter.png);
+}
+.youtube{
+list-style-image: url(./imagens/Youtube.png);
+}
+
+/* deste ponto para cima são os elementos atualizados */
+
+/* Desse ponto para baixo são os elementos antigos, segundo commit */
+
+/* .principal{
     width: 400px;
     height: 200px;
     background-image: url(/imagens/backgorund.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
-}
+} */
 
 
-h1{
-    margin: 20px;
-    word-spacing: -2px;
-    font-family: hello, Arial serif, Helvetica serif;
-    font-weight: 200px; 
-    padding-top: 20px; 
-}
-
-.linha1{list-style-image: url(/imagens/Insta.png);
+/* .linha1{list-style-image: url(/imagens/Insta.png);
 }
 .linha2{list-style-image: url(/imagens/Twitter.png);
 }
-.linha3{list-style-image: url(/imagens/Youtube.png);}
-
-#tabela{
+.linha3{list-style-image: url(/imagens/Youtube.png);} */
+/* Elemento antigo  */
+/* #tabela{
     text-transform:uppercase;
     margin-left: 20px;
-
-}
+} */
 
 
   
